@@ -21,10 +21,8 @@ Route::get('/posts', function () {
     return view('posts');
 });
 
-Route::get('/post/{post}', function($valorDaURL) { //wildcard
-
+Route::get('/post/{post}/{ola}', function($valorDaURL) { //wildcard
     //echo $valorDaURL;
-
     return view('post', ['nome'=> $valorDaURL ]);
 });
 

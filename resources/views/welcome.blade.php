@@ -1,5 +1,5 @@
 @extends('layout')
 
 @section('content')
-    <h1>Ola Laravel</h1>
+    <h1>Tchau laravel!</h1>
 @endsection
